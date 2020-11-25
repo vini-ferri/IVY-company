@@ -1,0 +1,30 @@
+body{
+    background-color:  #f0d2f0;
+}
+.navbar{
+    background-color: black;
+}
+
+.collapse{
+    color: blanchedalmond;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-link{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.pesquisa{
+    color: #BA27EE;
+}
+
+.btn{
+    background-color:#BA27EE;
+    color: white;
+}
+.btn:hover{
+    background-color:#27ee84;
+    color: white;
+}
+

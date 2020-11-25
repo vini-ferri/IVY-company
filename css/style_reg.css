@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(250, 227, 250)7, 212, 247);
+    
+}
+
+#titu{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    color: rgb(99, 219, 149);
+    margin-top: 4%;
+    margin-left: 5%;
+}
+
+/* Rectangle 6 */
+.retang{
+position: absolute;
+width: 778px;
+height: 1024px;
+left: 662px;
+top: 0px;
+
+background: rgba(102, 196, 141, 0.493);
+}
+
+.cad{
+    width: 45%;
+    margin-left: 5%;
+}
+
+.marg{
+    margin-left: 5%;
+}
+
+.tarta{
+   margin-top: 8%;
+}
+
+.rem{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: rgb(133, 133, 133);
+
+}
