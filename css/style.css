@@ -19,6 +19,10 @@ body{
     color: #BA27EE;
 }
 
+.imgp{
+    margin-left: 3%;
+}
+
 .btn{
     background-color:#BA27EE;
     color: white;
@@ -28,3 +32,49 @@ body{
     color: white;
 }
 
+.bton{
+    background-color:#BA27EE;
+    color: white;
+    width: 250px;
+    margin-left: 1%;
+    margin-top: 125%;
+    border-radius: 4px;
+}
+.bton:hover{
+    background-color:#27ee84;
+    color: white;
+}
+
+.retang{
+    position: absolute;
+    width: 93%;
+    height: 70%;
+    left: 4%;
+    top: 25%;
+    margin-bottom: 5%;
+    border-radius: 4px;
+    background: rgb(255, 255, 255);
+}
+
+#nome_prod{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 2%;
+    font-weight: bold;
+}
+
+#boton{
+    margin-top: 5%;
+    margin-left: 4%;
+}
+
+#tam{
+    background-color:#BA27EE;
+    color: white;
+    border-radius: 4px;
+    width: 10%;
+    height: 10%;
+}
+#tam:hover{
+    background-color:#27ee84;
+    color: white;
+}
