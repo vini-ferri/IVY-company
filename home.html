@@ -21,31 +21,37 @@
                 PRODUTOS
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">MOLETOM</a>
-                <a class="dropdown-item" href="#">CAMISETAS</a>
+                <a class="dropdown-item" href="#">EM BREVE</a>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">BERMUDAS</a>
               </div>
             </li>
             <li class="nav-item active">
               <a class="nav-link" href="#"> <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link mr-3" href="#">CONTATO</a>
+              <a class="nav-link mr3" onclick="scrollWin(8, 2650)">CONTATO</a>
             </li>
             <li class="nav-item">
               <a class="nav-link mr-3" href="#">CARRINHO</a>
             </li>
-            <!-- <li class="nav-item">
-              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-            </li> -->
           </ul>
-          <form class="form-inline ml-auto pesquisa">
-            <input class="form-control mr-sm-2 " type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-          </form>
-        </div>
-      </nav>
+          
+      
+        <ul class="navbar-nav lore">
+          <li class="nav-item">
+            <a class="nav-link mr-3" href="file:///C:/xampp/htdocs/aa_nova_ivy/pag_login.html">LOGIN</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mr-3" href="file:///C:/xampp/htdocs/aa_nova_ivy/pag_reg.html">REGISTRAR</a>
+          </li>
+        </ul>
+            <form class="form-inline ml-auto pesquisa">
+              <input class="form-control mr-sm-2 " type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+          </div>
+        </nav>
+      
 
       <section class="foto_parallax">
         <h1 class="text-center"></h1>
@@ -148,7 +154,11 @@
       
     </div>
  
-
+      <script>
+      function scrollWin(x, y) {
+        window.scrollBy(x, y);
+      }
+      </script>
 
       <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
       <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
