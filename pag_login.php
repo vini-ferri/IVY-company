@@ -13,7 +13,7 @@
 <body>
   <p id="titu">IVY COMPANY</p>
 
-  <form method="post" action="sucessolog.html">
+  <form method="post" action="home.html">
     <?php include('errors.php'); ?>
     <div class="form-group cad">
       <label for="exampleInputEmail1">Email</label>

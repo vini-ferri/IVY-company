@@ -32,7 +32,7 @@
       <label for="exampleInputPassword1">Confirme sua senha</label>
       <input type="password" name="password_2" class="form-control" id="exampleInputPassword1" required>
     </div>
-    <button style="background-color:rgb(90, 207, 139); ;" type="submit" class="btn btn-primary marg" name="reg_user">Próximo</button>
+    <button style="background-color:rgb(90, 207, 139); ;" type="submit" class="btn btn-primary marg" name="reg_user" href="pag_reg2.php">Próximo</button>
   </form>
 
   <div class="retang">
