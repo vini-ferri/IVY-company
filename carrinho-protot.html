@@ -12,27 +12,35 @@
 
 <body>
     <nav class="navbar navbar-expand-lg">
-        <a class="navbar-brand" href="#"><img src="https://i.imgur.com/jgiHCpb.png" width="90px" height="90px"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+        <a class="navbar-brand" href="home.html"><img src="https://i.imgur.com/jgiHCpb.png" width="90px" height="90px"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
         </button>
+    
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul>
-                <li class="nav-item">
-                    <a class="nav-link mr-3">CONTATO</a>
-                </li>
-            </ul>
-            <!-- <li class="nav-item">
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-              </li> -->
-            <form class="form-inline ml-auto pesquisa">
-                <input class="form-control mr-sm-2 " type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-            </form>
-        </div>
-    </nav>
+          <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle mr-1" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                PRODUTOS
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">EM BREVE</a>
+                <div class="dropdown-divider"></div>
+              </div>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#"> <span class="sr-only">(current)</span></a>
+            </li>
+          </ul>
+    
 
+          <form class="form-inline ml-auto pesquisa">
+            <input class="form-control mr-sm-2 " type="search" placeholder="Pesquisar produto" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
+          </form>
+        </div>
+      </nav>
 
 
 
@@ -140,8 +148,8 @@
                     google_ad_client = "ca-pub-2783044520727903";
                 /* jQuery_demo */
                 google_ad_slot = "2780937993";
-                google_ad_width = 728;
-                google_ad_height = 90;
+                google_ad_width = 800;
+                google_ad_height = 150;
         //-->
             </script>
             <script type="text/javascript" src="https://pagead2.googlesyndication.com/pagead/show_ads.js">

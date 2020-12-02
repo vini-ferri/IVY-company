@@ -89,29 +89,6 @@ body{
     outline: none;
 }
 
-#tabela{
-    
-    border: #f0d2f0;
-}
-#Nvtable{
-    margin-left: 38px;
-}
-#botaum{
-    border-radius: 90px;
-    margin-left: 15px;
-}
-#botaum1{
-    border-radius: 90px;
-    margin-left: 15px;
-}
-.qtd{
-    margin-left: 10px;
-    padding: 10px;
-}
-#fundo{
-    background-color: #f0d2f0;
-    margin-left: 50px;
-}
 #price{
     text-align: center;
     margin-top: 50px; 
@@ -120,15 +97,7 @@ body{
     font-weight: bolder;
 
 }
-.alinhamento{
-    display: inline-block;
-}
-.ajuste{
-    text-align: center;
-    margin-top: 50px; 
-    color: black;
-    font-size: large;
-    font-weight: bolder;
+
 }
 h1,h2,h3,h4,h5,h6{
     margin: 0;
@@ -142,25 +111,35 @@ h1,h2,h3,h4,h5,h6{
 }
 /*Cart*/
 #cart{
-    margin-top: 2rem;
+    width: 200%;
+    margin-top: 5%;
+    margin-left: 80%;
+    align-items: center;
+    justify-content: center;
 }
 .cart-grid  {
-    //height: calc(100vh - 190px);
+    border: white;
+    border-radius: 45px;
+    background: white;
     position: absolute;
 }
 .cart-heading{
-    display: flex;
-    background: #E54C33 !important;
-    color: #fff !important;
+    height: 40px;
+    font-family: sans-serif;
+    font-size: 20px;
+    text-align: center;
+    background: #BA27EE ;
+    color: #fff ;
 }
 .cart-body{
     text-align: center;
 }
 .cart-summary-container{
-    width: 27rem;
+    width: 100%;
     border-top: 1px solid hsla(0,0%,59%,.16);
 }
 .cart-total-amount{
+    width: 100%;
     font-weight: 700;
     padding: 2rem;
     font-size: 1.3rem;
@@ -251,7 +230,4 @@ h1,h2,h3,h4,h5,h6{
     right: 1rem;
     z-index: 9;
     color: #2baf2b;
-}
-.minhaDiv{
-    display: none;
 }
