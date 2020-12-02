@@ -1,183 +1,306 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/estilo_home.css">
-    <title>IVY home</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/estilo_home.css">
+  <title>IVY home</title>
 </head>
+
 <body>
-    <nav class="navbar navbar-expand-lg">
-        <a class="navbar-brand" href="#"><img src="https://i.imgur.com/jgiHCpb.png" width="90px" height="90px"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav">
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle mr-1" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                PRODUTOS
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">EM BREVE</a>
-                <div class="dropdown-divider"></div>
-              </div>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="#"> <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link mr3" onclick="scrollWin(8, 2650)">CONTATO</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link mr-3" href="carrinho.html">CARRINHO</a>
-            </li>
-          </ul>
-          
-      
-        <ul class="navbar-nav lore">
-          <li class="nav-item">
-            <a class="nav-link mr-3" href="pag_login.php">LOGIN</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link mr-3" href="pag_reg.php">REGISTRAR</a>
-          </li>
-        </ul>
-            <form class="form-inline ml-auto pesquisa">
-              <input class="form-control mr-sm-2 " type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-            </form>
-          </div>
-        </nav>
-      
+  <nav class="navbar navbar-expand-lg">
+    <a class="navbar-brand" href="#"><img src="https://i.imgur.com/jgiHCpb.png" width="90px" height="90px"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-      <section class="foto_parallax">
-        <h1 class="text-center"></h1>
-      </section>
-    
-      <div class="card-deck mt-3 ml-3 mr-3">
-        <div class="card">
-          <img src="https://imgur.com/z83OPcV.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">CAMISETA IVY</h5>
-            <form action="detalhes.html">
-              <input class="btn" type="submit" value="R$45,00" />
-            </form>
-            
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle mr-1" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            PRODUTOS
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">EM BREVE</a>
+            <div class="dropdown-divider"></div>
           </div>
-        </div>
-        <div class="card">
-          <img src="https://imgur.com/tCvGSCo.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">CAMISETA FRANK OCEAN</h5>
-            <form action="frankocean.html">
-              <input class="btn" type="submit" value="R$45,00" />
-            </form>
-          </div>
-        </div>
-        <div class="card">
-          <img src="https://imgur.com/RH3GOih.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">CAMISETA DIVIDIDA</h5>
-            <form action="dividida.html">
-              <input class="btn" type="submit" value="R$45,00" />
-            </form>
-          </div>
-        </div>
-      </div>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#"> <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link mr-3" data-toggle="modal" data-target="#CONTATO" href="">CONTATO</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link mr-3" href="http://127.0.0.1:5500/carrinho-protot.html">CARRINHO</a>
+        </li>
+      </ul>
 
-      <div class="card-deck mt-3 ml-3 mr-3">
-        <div class="card">
-          <img src="https://imgur.com/iqYTxeP.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">CAMISETA CHIHIRO</h5>
-            <form action="chihiro.html">
-              <input class="btn" type="submit" value="R$45,00" />
-            </form>
-          </div>
-        </div>
-        <div class="card">
-          <img src="https://imgur.com/ON7ipWk.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">MOLETOM IVY</h5>
-            <form action="moletom.html">
-              <input class="btn" type="submit" value="R$80,00" />
-            </form>
-          </div>
-        </div>
-        <div class="card">
-          <img src="https://imgur.com/ja1XVem.jpg" class="card-img-top" alt="..." >
-          <div class="card-body">
-            <h5 class="card-title">CAMISETA SANS</h5>
-            <form action="sans.html">
-              <input class="btn" type="submit" value="R$45,00" />
-            </form>
-          </div>
-        </div>
-      </div>
 
-      <div class="card-deck mt-3 ml-3 mr-3">
-        <div class="card">
-          <img src="https://imgur.com/Ytvibz4.jpg" class="card-img-top" alt="..." >
-          <div class="card-body">
-            <h5 class="card-title">CAMISETA ZELDA</h5>
-            <form action="zelda.html">
-              <input class="btn" type="submit" value="R$45,00" />
-            </form>
-          </div>
-        </div>
-        <div class="card">
-          <img src="https://imgur.com/LBdEmcZ.jpg" class="card-img-top" alt="..." >
-          <div class="card-body">
-            <h5 class="card-title">CAMISETA ZORO</h5>
-            <form action="zoro.html">
-              <input class="btn" type="submit" value="R$45,00" />
-            </form>
-          </div>
-        </div>
-        <div class="card">
-          <img src="https://imgur.com/jIBzAv7.jpg" class="card-img-top" alt="..." width="378px">
-          <div class="card-body">
-            <h5 class="card-title">CAMISETA TARTARUGA IVY</h5>
-            <form action="tartaruga.html">
-              <input class="btn" type="submit" value="R$45,00" />
-            </form>
-          </div>
-        </div>
-        
-      </div>
-    <div class="rodape">
-      <form id="cadastro">
-        <div class="form-row">
-          <div class="col-md-6">
-            <input type="text" class="form-control mt-3 dadosN" placeholder="NOME">
-          </div>
-          <div class="col-md-6">
-            <input type="text" class="form-control mt-3 dadosE" placeholder="E-MAIL">
-          </div>
-        </div>
-        <div class="form-row">
-          <div class="col">
-            <input type="text" class="form-control mt-3 dadosP" placeholder="😀 O QUE VOCÊ QUER NOS CONTAR?">
-          </div>
-        
+      <ul class="navbar-nav lore">
+        <li class="nav-item">
+          <a class="nav-link mr-3" href="pag_login.php">LOGIN</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link mr-3" href="pag_reg.php">REGISTRAR</a>
+        </li>
+      </ul>
+      <form class="form-inline ml-auto pesquisa">
+        <input class="form-control mr-sm-2 " type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
       </form>
-      <div class="col-12 mt-3">
-        <button type="submit" class="btn btn-primary mb-3">Enviar</button>
-      </div>
-      
     </div>
- 
-      <script>
-      function scrollWin(x, y) {
-        window.scrollBy(x, y);
-      }
-      </script>
+  </nav>
 
-      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+  <section class="foto_parallax">
+    <h1 class="text-center"></h1>
+  </section>
+
+  <div class="card-deck mt-3 ml-3 mr-3">
+    <div class="card">
+      <img src="https://imgur.com/z83OPcV.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">CAMISETA IVY</h5>
+        <button class="btn btn-primary sc-add-to-cart" data-name="CAMISETA IVY" data-price="45" type="submit">Adicionar ao carrinho</button>
+        <a class="btn" href=".html">Ver mais</a>
+      </div>
+    </div>
+    <div class="card">
+      <img src="https://imgur.com/tCvGSCo.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">CAMISETA FRANK OCEAN</h5>
+        <button class="btn btn-primary sc-add-to-cart" data-name="CAMISETA FRANK OCEAN" data-price="45" type="submit">Adicionar ao carrinho</button>
+        <a class="btn" href="frankocean.html">Ver mais</a>
+      </div>
+    </div>
+    <div class="card">
+      <img src="https://imgur.com/RH3GOih.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">CAMISETA DIVIDIDA</h5>
+        <button class="btn btn-primary sc-add-to-cart" data-name="CAMISETA DIVIDIDA" data-price="45" type="submit">Adicionar ao carrinho</button>
+        <a class="btn" href="dividida.html">Ver mais</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="card-deck mt-3 ml-3 mr-3">
+    <div class="card">
+      <img src="https://imgur.com/iqYTxeP.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">CAMISETA CHIHIRO</h5>
+        <button class="btn btn-primary sc-add-to-cart" data-name="CAMISETA CHIHIRO" data-price="45" type="submit">Adicionar ao carrinho</button>
+        <a class="btn" href="chihiro.html">Ver mais</a>
+      </div>
+    </div>
+    <div class="card">
+      <img src="https://imgur.com/ON7ipWk.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">MOLETOM IVY</h5>
+        <button class="btn btn-primary sc-add-to-cart" data-name="MOLETOM IVY" data-price="80" type="submit">Adicionar ao carrinho</button>
+        <a class="btn" href="moletom.html">Ver mais</a>
+      </div>
+    </div>
+    <div class="card">
+      <img src="https://imgur.com/ja1XVem.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">CAMISETA SANS</h5>
+        <button class="btn btn-primary sc-add-to-cart" data-name="CAMISETA SANS" data-price="45" type="submit">Adicionar ao carrinho</button>
+        <a class="btn" href="sans.html">Ver mais</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="card-deck mt-3 ml-3 mr-3">
+    <div class="card">
+      <img src="https://imgur.com/Ytvibz4.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">CAMISETA ZELDA</h5>
+        <button class="btn btn-primary sc-add-to-cart" data-name="CAMISETA ZELDA" data-price="45" type="submit">Adicionar ao carrinho</button>
+        <a class="btn" href="zelda.html">Ver mais</a>
+      </div>
+    </div>
+    <div class="card">
+      <img src="https://imgur.com/LBdEmcZ.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">CAMISETA ZORO</h5>
+        <button class="btn btn-primary sc-add-to-cart" data-name="CAMISETA ZORO" data-price="45" type="submit">Adicionar ao carrinho</button>
+        <a class="btn" href=".html">Ver mais</a>
+      </div>
+    </div>
+    <div class="card">
+        <img src="https://imgur.com/jIBzAv7.jpg" class="card-img-top" alt="..." width="378px">
+        <div class="card-body">
+          <h5 class="card-title">CAMISETA TARTARUGA IVY</h5>
+          <button class="btn btn-primary sc-add-to-cart" data-name="CAMISETA TARTARUGA IVY" data-price="45" type="submit">Adicionar ao carrinho</button>
+          <a class="btn" href="tartaruga.html">Ver mais</a>
+        </div>
+    </div>
+    </div>
+  </div>
+    
+   
+
+    <div class="rodape">
+      <div class="col">
+        <div class="col-md-3">
+          <div id="cart" class="cart-grid panel panel-defaults">
+            <div class="cart-offer">
+            </div>
+            <div class="cart-total-amount">
+              <div class="spacer">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="rodape text-center">
+      <h1>IVY COMPANY©</h1>
+    </div>
+
+    <!-- Modal mensagem-->
+    <div class="modal fade" id="CONTATO" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+      aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">Contato</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div>
+              <form id="cadastro">
+                <div class="form-row">
+                  <div class="col-md-6">
+                    <input type="text" class="form-control mt-3 dadosN" placeholder="NOME">
+                  </div>
+                  <div class="col-md-6">
+                    <input type="text" class="form-control mt-3 dadosE" placeholder="E-MAIL">
+                  </div>
+                </div>
+                <div class="form-row">
+                  <div class="col">
+                    <input type="text" class="form-control mt-3 mb-3 dadosP"
+                      placeholder="😀 O QUE VOCÊ QUER NOS CONTAR?">
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+            <button type="button" class="btn btn-primary">Enviar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal detalhe modal-->
+    <!-- <div class="modal fade" id="moletom" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">Contato</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="row">
+              <div class="col imgp">
+                <img src="https://imgur.com/ON7ipWk.jpg" class="foto ml-3 mt-3" width="100%" height="80%">
+              </div>
+              <div class="col">
+                <h2 id="nome_prod">MOLETOM IVY</h2>
+                <br>
+                <p>Descrição muito show muito massa sobre o produto BALA que o cliente está adquirindo em nossa lojinha digital</p>
+                <br>
+                <p id="nome_prod">Tamanhos</p>
+                <input id="tam" class="btn-outline-success my-5 my-sm-0" type="submit" value="P"/>
+                <input id="tam" class="btn-outline-success my-5 my-sm-0" type="submit" value="M"/>
+                <input id="tam" class="btn-outline-success my-5 my-sm-0" type="submit" value="G"/>
+                <input class="bton btn-outline-success my-5 my-sm-0 sc-add-to-cart" type="submit" value="COMPRAR"/>
+              </div>
+            </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+            <button type="button" class="btn btn-primary">Enviar</button>
+          </div>
+        </div>
+      </div>
+    </div> -->
+
+
+    <div>
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+      <script src="https://code.jquery.com/jquery-1.12.4.min.js"
+        integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ"
+        crossorigin="anonymous"></script>
+      <script src="../lib/js/jQuery.SimpleCart.js"></script>
+
+      <div class="jquery-script-ads">
+        <script type="text/javascript">
+          google_ad_client = "ca-pub-2783044520727903";
+          /* jQuery_demo */
+          google_ad_slot = "2780937993";
+          google_ad_width = 50;
+          google_ad_height = 50;
+        </script>
+        <script type="text/javascript" src="https://pagead2.googlesyndication.com/pagead/show_ads.js">
+        </script>
+      </div>
+      <div class="jquery-script-clear"></div>
+    
+    
+      <script>
+        $(document).ready(function () {
+          $('#cart').simpleCart();
+        });
+      </script>
+      <script type="text/javascript">
+
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-36251023-1']);
+        _gaq.push(['_setDomainName', 'jqueryscript.net']);
+        _gaq.push(['_trackPageview']);
+      
+        (function () {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+      
+      </script>
+    </div>
+      
+
+     
 </body>
+
 </html>

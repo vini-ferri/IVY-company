@@ -39,11 +39,6 @@ body{
     padding-bottom: 300px;
   }
 
-.rodape{
-    background-color: black;
-    margin-top: 5%;  
-}
-
 #cadastro{
     padding: 0 5vw;
 }
@@ -78,4 +73,16 @@ body{
 
 .lore{
     margin-left: 20%;
+}
+
+.rodape{
+    background-color: black;
+    margin-top: 6%; 
+    position: absolute;
+    width: 100%; 
+}
+
+.cart-grid  {
+    //height: calc(100vh - 190px);
+    display: none;
 }

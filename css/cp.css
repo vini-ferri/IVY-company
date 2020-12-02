@@ -103,7 +103,6 @@ body{
 #botaum1{
     border-radius: 90px;
     margin-left: 15px;
-    padding-inline: 18px;
 }
 .qtd{
     margin-left: 10px;
@@ -147,7 +146,7 @@ h1,h2,h3,h4,h5,h6{
 }
 .cart-grid  {
     //height: calc(100vh - 190px);
-    position: fixed;
+    position: absolute;
 }
 .cart-heading{
     display: flex;
@@ -252,4 +251,7 @@ h1,h2,h3,h4,h5,h6{
     right: 1rem;
     z-index: 9;
     color: #2baf2b;
+}
+.minhaDiv{
+    display: none;
 }
