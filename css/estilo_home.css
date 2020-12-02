@@ -28,6 +28,17 @@ body{
     color: white;
 }
 
+.btn-m{
+    background-color:#BA27EE;
+    color: white;
+    width: 44%;
+    display: inline;
+    border-radius: 4px;
+}
+.btn-m:hover{
+    background-color:#27ee84;
+    color: white;
+}
 
 .foto_parallax {
     background-image: url(https://imgur.com/mRasdkU.jpg);

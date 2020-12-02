@@ -51,8 +51,8 @@
         </li>
       </ul>
       <form class="form-inline ml-auto pesquisa">
-        <input class="form-control mr-sm-2 " type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        <input class="form-control mr-sm-2 " type="search" placeholder="O que você deseja?" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
       </form>
     </div>
   </nav>
@@ -76,7 +76,7 @@
       <div class="card-body">
         <h5 class="card-title">CAMISETA FRANK OCEAN</h5>
         <button class="btn btn-primary sc-add-to-cart" data-name="CAMISETA FRANK OCEAN" data-price="45" type="submit">Adicionar ao carrinho</button>
-        <a class="btn" href="frankocean.html">Ver mais</a>
+        <a class="btn-m nav-link mr-3" data-toggle="modal" data-target="#frank" href="">ver mais</a>
       </div>
     </div>
     <div class="card">
@@ -103,7 +103,7 @@
       <div class="card-body">
         <h5 class="card-title">MOLETOM IVY</h5>
         <button class="btn btn-primary sc-add-to-cart" data-name="MOLETOM IVY" data-price="80" type="submit">Adicionar ao carrinho</button>
-        <a class="btn" href="moletom.html">Ver mais</a>
+        <a class="btn-m nav-link mr-3" data-toggle="modal" data-target="#moletom" href="">ver mais</a>
       </div>
     </div>
     <div class="card">
@@ -203,45 +203,78 @@
         </div>
       </div>
     </div>
-    <!-- Modal detalhe modal-->
-    <!-- <div class="modal fade" id="moletom" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <!-- Modal detalhe moletom-->
+    <div class="modal fade" id="moletom" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
       <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLongTitle">Contato</h5>
+            <h5 class="modal-title" id="exampleModalLongTitle">Detalhes</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="retang container">
+              <div class="row">
+                <div class="col-6 imgp">
+                  <img src="https://imgur.com/ON7ipWk.jpg" class="foto ml-3 mt-3" width="100%">
+                </div>
+                <div class="col-6">
+                  <h2 id="nome_prod">MOLETOM IVY</h2>
+                  <br>
+                  <p>Descrição muito show muito massa sobre o produto BALA que o cliente está adquirindo em nossa lojinha digital</p>
+                  <br>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                
+                </div>
+                <div class="col">
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal detalhe frank-->
+    <div class="modal fade" id="frank" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">Detalhes</h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
           </div>
           <div class="modal-body">
             <div class="row">
-              <div class="col imgp">
-                <img src="https://imgur.com/ON7ipWk.jpg" class="foto ml-3 mt-3" width="100%" height="80%">
+              <div class="col-6 imgp">
+                <img src="https://imgur.com/tCvGSCo.jpg" class="foto ml-3 mr-3 mt-3" width="100%">
               </div>
-              <div class="col">
-                <h2 id="nome_prod">MOLETOM IVY</h2>
+              <div class="col-6">
+                <h2 id="nome_prod">CAMISETA FRANK OCEAN</h2>
                 <br>
                 <p>Descrição muito show muito massa sobre o produto BALA que o cliente está adquirindo em nossa lojinha digital</p>
                 <br>
-                <p id="nome_prod">Tamanhos</p>
-                <input id="tam" class="btn-outline-success my-5 my-sm-0" type="submit" value="P"/>
-                <input id="tam" class="btn-outline-success my-5 my-sm-0" type="submit" value="M"/>
-                <input id="tam" class="btn-outline-success my-5 my-sm-0" type="submit" value="G"/>
-                <input class="bton btn-outline-success my-5 my-sm-0 sc-add-to-cart" type="submit" value="COMPRAR"/>
+              </div>
+              <div class="col">
+              
+              </div>
+              <div class="col">
+                
               </div>
             </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
-            <button type="button" class="btn btn-primary">Enviar</button>
           </div>
+              
         </div>
       </div>
-    </div> -->
+    </div>
 
-
-    <div>
       <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
       <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
         integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
@@ -275,7 +308,7 @@
         <script type="text/javascript" src="https://pagead2.googlesyndication.com/pagead/show_ads.js">
         </script>
       </div>
-      <div class="jquery-script-clear"></div>
+    <div class="jquery-script-clear"></div>
     
     
       <script>
@@ -297,10 +330,8 @@
         })();
       
       </script>
-    </div>
-      
 
-     
+
 </body>
 
 </html>
