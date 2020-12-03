@@ -50,9 +50,6 @@ body{
     padding-bottom: 300px;
   }
 
-#cadastro{
-    padding: 0 5vw;
-}
 
 .dadosN{
     width: 100%;
@@ -94,6 +91,6 @@ body{
 }
 
 .cart-grid  {
-    //height: calc(100vh - 190px);
+    height: calc(100vh - 190px);
     display: none;
 }

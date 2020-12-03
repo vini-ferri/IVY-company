@@ -123,6 +123,7 @@ h1,h2,h3,h4,h5,h6{
     background: white;
     position: absolute;
 }
+
 .cart-heading{
     height: 40px;
     font-family: sans-serif;
@@ -141,20 +142,37 @@ h1,h2,h3,h4,h5,h6{
 .cart-total-amount{
     width: 100%;
     font-weight: 700;
-    padding: 2rem;
+    padding-top: 0 !important;
+    padding-right: 2rem;
+    padding-left: 2rem;
     font-size: 1.3rem;
     display: flex;
     border-top: 1px solid hsla(0,0%,59%,.16);
     border-bottom: 1px solid hsla(0,0%,59%,.16);
 }
+.carrinho-banner {
+    border-radius: 45px 45px 0 0 !important;
+    margin-bottom: 16px;
+
+}
+.btn-finalizar-compra {
+    margin-top: 30px !important;
+}
+.amonut-card {
+    padding-top: 0 !important;
+}
+.total-cart-count {
+    padding-top: 5px !important;
+}
 .cart-checkout{
     cursor: pointer;
-    height: 6rem;
+    height: 8rem !important;
     font-size: 1rem;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 .spacer{
     flex-grow:1;
     visibility: hidden;
